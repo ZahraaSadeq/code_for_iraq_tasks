@@ -1,0 +1,52 @@
+<DOCTYPE html >
+  <html>
+    <head> 
+     <meta charset="UTF-8">
+     <title> TASK 8 </title>
+    </head>
+    <body>
+   <form action="a.html" method="post">
+     
+     <label for="name" >USERNAME</label>
+       <br>
+     <input required type="text" id="name" placeholder="user name" name="username">
+     
+     <hr>
+     
+     <label for="pas" >PASSWORD</label>
+       <br>
+     <input type="password" id="pas" placeholder="your password" name="password" required maxlength="5" minlength="5">
+       <br> 
+       <hr>
+       <label for="lan"> language </label> <br>
+      <input type="text" value="HTML5" readonly name="lan" >
+     <br>
+     <hr>
+     <div>
+       <p>choose your favorite languages </p>
+       <input type="checkbox" value="javascript" name="javascript" id="javascript">
+       <label for="javascript">JAVASCRIPT</label>
+       <br>
+       <input type="checkbox" value="php" name="php" id="php">
+       <label for="php">PHP</label>
+       <br>
+       <input type="checkbox" value="c++" name="c++" id="c++">
+       <label for="c++">C++</label>
+       <br>
+       <input type="checkbox" value="python" name="python" id="python">
+       <label for="python">PYTHON</label>
+       <br>
+     </div>
+     <p>Please select your OS: </p>
+     <input type="radio" value="windows" name="os" id="windows">
+     <label for="windows"> WINDOWS</label> <br>
+     <input type="radio" value="mac" name="os" id="mac">
+     <label for="mac">MAC</label> <br>
+     <input type="radio" value="linux" name="os" id="linux">
+     <label for="linux">LINUX</label>
+     <input type="hidden" name="id" id="aa" value="313">
+     <br> 
+     <input type="submit" value="send">
+    </body>
+
+  </html>
